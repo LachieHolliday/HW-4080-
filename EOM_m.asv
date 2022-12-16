@@ -1,0 +1,38 @@
+
+
+function m = EOM(t, m0, v0)
+global offset_thrust_angle 
+global epsilon 
+global flight_path_angle 
+global gamma
+global Cd 
+global Cl 
+global pitch
+global phi
+global omega
+global rho_inf
+global a_ref
+global m
+global thrust
+global g 
+global Isp
+global temp 
+global T
+global v
+global r 
+global psi
+global sigma  
+global theta
+global grav
+
+    m = [m0(2);
+        -T/(Isp*grav)]; 
+%     v = [y(2);
+%         (T/m)*cos(eps) - (rhoinf*(inf^2)*Cd*Aref)/(2*m) - g*sin(gamma)];
+%     g = [g(2);
+%      (T/(m*v))*sin(eps) + (v*cos(gamma))/(re + h) + (rhoinf*vinf*Cl*Aref)];
+%     h = [h(2);
+%     v*sin(gamma)];
+    
+
+end
