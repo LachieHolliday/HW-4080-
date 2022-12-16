@@ -1,4 +1,4 @@
-function v = EOM_m(t, m0)
+function m = EOM_m(t, m0)
 global offset_thrust_angle 
 global epsilon 
 global flight_path_angle 
