@@ -27,6 +27,6 @@ global grav
 global rho_inf 
 
     h = [h0(2);
-    v(1)*sind(gamma(1))];si
+    v(1)*sind(gamma(1))];
 
 end

@@ -24,8 +24,9 @@ global sigma
 global theta
 global grav
 global rho_inf 
+global eps
 
     v = [v0(2);
-        ((T/m(1)*cosd(eps) - (rho_inf*(v0(1)^2)*Cd*a_ref)/(2*m(1))) - g*sind(gamma(1)))];
+        ((T/m(1)*cosd(eps) - (rho_inf*(v0(2)^2)*Cd*a_ref)/(2*m(1))) - grav*sind(g(1)))];
    
 end

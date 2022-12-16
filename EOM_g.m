@@ -27,9 +27,10 @@ global grav
 global rho_inf 
 global re
 global h
+global eps
 
     g = [g0(2);
-     (T/(m(1)*v(1)))*sind(eps) + (v(1)*cosd(g(1)))/(re + h(1)) + (rho_inf*v(1)*Cl*a_ref)];
+     (T/(m(1)*v(1)))*sind(eps) + (v(1)*cosd(g0(1)))/(re + h(1)) + (rho_inf*v(1)*Cl*a_ref)];
 
     
 
